@@ -1,0 +1,12 @@
+# STM32CubeIDE generated files
+Debug/
+.settings/
+.project
+.cproject
+*.launch
+
+# Build artifacts
+*.o
+*.elf
+*.map
+*.lst
