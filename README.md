@@ -3,6 +3,25 @@
 ## Objective
 Implement a 100 Hz timer-triggered ADC acquisition system using DMA and transmit results over UART on an STM32F411 (Black Pill), without HAL, CMSIS, or physical hardware.
 
+
+## 🎥 Demo Video
+
+This short demo video explains the firmware architecture, build process, and execution flow of the project.
+
+▶️ **Click below to watch the demo video:**
+
+[▶️ Watch Demo Video](./STM_32%20-%20Made%20with%20Clipchamp.mp4)
+
+---
+
+### 🧠 What the Video Demonstrates
+
+- STM32CubeIDE project structure  
+- Successful clean build (no errors)  
+- Bare-metal firmware design (no HAL / CMSIS)  
+- Timer → ADC → DMA → UART data flow explanation  
+- Hardware-ready firmware (board not required for build validation)
+
 ## System Flow
 1. TIM2 generates a 100 Hz trigger
 2. TIM2 TRGO triggers ADC1
